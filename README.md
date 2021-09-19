@@ -1,2 +1,6 @@
 # Framing
 Identify frames in the Tweets of US politicians.
+
+Framing refers to wording your opinion on a certain subject to emphasize certain aspects of the topic over the others. You can get insights into the views and standings of an individual with respect to an issue based on the words used by the individual and the way they frame their sentences. In real world scenarios, associating wordings and sentences from an individual or an organization to various frames can help us identify their bias with respect to the ongoing issue under consideration. This is a very powerful tool. For example, when it comes to elections, associating frames to candidates and political parties can help us correlate their views with that of ours, which could potentially have a huge influence on the votes that they receive. Another example is an organization’s standing with respect to how environment friendly their operations need to be. Hence, frameworks for associating language to frames have numerous applications in the society.
+
+In this work, we utilize pre-trained sentence embeddings from Distilled RoBERTa to encode Congressional Tweets and classify them into 17 frames using a feed forward neural network. We use sentence similarity and data annotation on 3.2 million unlabelled tweets to further improve our predictions.
